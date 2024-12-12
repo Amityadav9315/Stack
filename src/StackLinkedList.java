@@ -63,7 +63,7 @@ public class StackLinkedList {
         else{
             Node temp=top;
             while(temp!=null){
-                System.out.println(temp.data+"\t");
+                System.out.print(temp.data+"\t");
                 temp=temp.next;
             }
             System.out.println();
