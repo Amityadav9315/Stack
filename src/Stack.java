@@ -21,13 +21,26 @@ public class Stack {
             array[top]=data;
         }
     }
+    //check empty
+    public boolean isEmpty(){
+        return top==-1;
+
+    }
+
+    //pop operation
+    public void pop(){
+        if(isEmpty()){
+            System.out.println("Stack is empty");
+        }
+    }
+
     //display data
     public void displayElements(){
         if(top==-1){
             System.out.println("Stack is empty");
         }
         for(int i=0; i<=top; i++){
-            System.out.println(array[i]+"\t");
+            System.out.print(array[i]+"\t");
         }
         System.out.println();
     }
