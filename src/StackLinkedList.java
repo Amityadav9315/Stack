@@ -48,13 +48,7 @@ public class StackLinkedList {
 
     //isEmpty
     public boolean isEmpty() {
-        if (this.top == null) {
-            System.out.println("List is empty");
-            return true;
-
-        } else {
-            return false;
-        }
+        return this.top==null;
     }
 
 
