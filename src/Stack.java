@@ -22,7 +22,7 @@ public class Stack {
         }
     }
     //display data
-    public void displayElement(){
+    public void displayElements(){
         if(top==-1){
             System.out.println("Stack is empty");
         }
@@ -31,4 +31,6 @@ public class Stack {
         }
         System.out.println();
     }
+
+
 }
