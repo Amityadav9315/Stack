@@ -7,6 +7,10 @@ public class Main {
         stack.push(54);
         stack.push(50);
         stack.displayElements();
+        System.out.println(stack.pop());
+        stack.displayElements();
+        stack.pop();
+        stack.displayElements();
 
     }
 }
