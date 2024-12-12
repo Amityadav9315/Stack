@@ -6,11 +6,14 @@ public class Main {
         stack.push(56);
         stack.push(54);
         stack.push(50);
+//        stack.displayElements();
+//        System.out.println(stack.pop());
+//        stack.displayElements();
+//        stack.pop();
+//        stack.displayElements();
+        System.out.println(stack.peek());
         stack.displayElements();
-        System.out.println(stack.pop());
-        stack.displayElements();
-        stack.pop();
-        stack.displayElements();
+
 
     }
 }
