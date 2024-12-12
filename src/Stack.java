@@ -28,9 +28,27 @@ public class Stack {
     }
 
     //pop operation
-    public void pop(){
+    public int  pop(){
         if(isEmpty()){
             System.out.println("Stack is empty");
+            return -1;
+        }
+        else{
+            int popElement=array[top];
+            top--;
+            return popElement;
+        }
+
+    }
+    //peak operation
+    public  int peek(){
+        if(isEmpty()){
+            System.out.println("stack is empty");
+            return -1;
+        }
+        else{
+            return array[top];
+
         }
     }
 
